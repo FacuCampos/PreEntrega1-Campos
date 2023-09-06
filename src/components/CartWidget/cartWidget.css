@@ -1,11 +1,10 @@
 .carrito{
     height: 80px;
-    width: 90px;
+    width: 100px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 5px;
 }
 
 .carrito .divCart{
@@ -16,6 +15,7 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
 }
 
 .carrito .divCart .cartIcon{

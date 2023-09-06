@@ -6,11 +6,7 @@ const cartWidget = () => {
         <div className='carrito'>
             <a className='divCart'>
                 <Basket3Fill className='cartIcon' color='white' size={30}/>
-                <div className='contador'>
-                    <p>
-                        5
-                    </p>
-                </div>
+                <span className='contador' id='cart-count'>3</span>
             </a>
         </div>
     )
