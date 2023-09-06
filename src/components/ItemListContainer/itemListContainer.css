@@ -1,0 +1,28 @@
+.navList{
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navList a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navList a:hover{
+    background-color: #e6344a;
+}
+
+.navList a div{
+    display: flex;
+}
+
+.navList a p{
+    margin-left: 10px;
+}
